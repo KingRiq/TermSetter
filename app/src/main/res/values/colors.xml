@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/tsBlue100</color>
+    <color name="colorPrimaryDark">@color/tsBlue200</color>
+    <color name="colorOnSurface">@color/grey200</color> <!-- outlines -->
+    <color name="colorBackground">@color/white</color>
+
+    <color name="outlineButtonStrokeColor">@color/tsBlue200</color>
+    <color name="textColorPrimary">@color/grey300</color>
+    <color name="textInputOutlineColor">@color/tsBlue100</color>
+    <color name="textInputTextColor">@color/grey200</color>
+    <color name="textInputHintColor">@color/grey100</color>
+    <color name="colorError">@color/tsRed</color>
+
+    <color name="tsBlue50">#dafaf8</color>
+    <color name="tsBlue100">#a1ecec</color>
+    <color name="tsBlue200">#26BDBD</color>
+    <color name="tsRed">#b21233</color>
+
+
+
+    <!-- (Andrea) Recycle view resources -->
+    <color name="cardBackground1">#7DB4AF</color>
+    <color name="cardBackground2">#AFA0C3</color>
+    <color name="cardBackground3">#4BC8EB</color>
+    <color name="cardBackground4">#7D8CEB</color>
+
+    <!-- Termsetter brand colours -->
+    <color name="tsEmerald50">#b8f8eb</color>
+    <color name="tsEmerald100">#69E5CC</color>
+    <color name="tsEmerald200">#12B291</color>
+
+    <!-- Greyscale colors -->
+    <color name="white">#ffffff</color>
+    <color name="grey50">#adadad</color>
+    <color name="grey100">#767676</color>
+    <color name="grey200">#3f3f3f</color>
+    <color name="grey300">#242424</color> <!-- Text -->
+    <color name="black">#000000</color>
+    <color name="faded_black">#383838</color>
+
+    <!-- IGNORE BELOW -->
+
+    <!-- Termsetter complimentary colors -->
+    <color name="tsComp50">#b5d9f5</color>
+    <color name="tsComp100">#b5b9f5</color>
+
+
+    <!-- MaterialComponents attributes -->
+    <color name="tsPrimary">@color/tsBlue100</color>
+    <color name="tsSecondary">@color/tsComp50</color>
+    <color name="tsBackground">@color/white</color>
+    <color name="temp">#FF3700B3</color>
+
+    <!-- New MaterialComponents attributes. -->
+    <color name="tsPrimaryVariant">@color/temp</color>
+    <color name="tsSecondaryVariant">#FF3700B3</color>
+    <color name="tsSurface">@color/tsBlue50</color>
+    <color name="tsColorOnPrimary">@color/grey200</color>
+    <color name="tsColorOnSecondary">#FF3700B3</color>
+    <color name="tsColorOnBackground">#FF3700B3</color>
+    <color name="tsColorOnError">#FF3700B3</color>
+    <color name="tsColorOnSurface">@color/temp</color>
+
+
+    <!-- Pre-defined app colours -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="background">#32363a</color>
+    <color name="foreground">#e1e1e1</color>
+    <color name="accent_1">#7c8ded</color>
+    <color name="accent_2">#52defe</color>
+
+
+</resources>

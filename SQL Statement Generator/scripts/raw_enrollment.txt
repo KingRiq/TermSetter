@@ -1,0 +1,13 @@
+$Enrollments
+COMP1010#kimh3427
+COMP1020#abelleac
+COMP2080#hamptone
+COMP2160#purificm
+COMP2140#tariqf
+COMP2280#ledt
+COMP3350#kimh3427
+COMP3350#abelleac
+COMP3350#hamptone
+COMP3350#purificm
+COMP3350#tariqf
+COMP3350#ledt

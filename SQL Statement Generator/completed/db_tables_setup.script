@@ -1,0 +1,31 @@
+CREATE TABLE IF NOT EXISTS students (
+    student_id VARCHAR(100),
+    student_name VARCHAR(100),
+    student_password VARCHAR(100),
+    student_phone VARCHAR(100),
+    student_email VARCHAR(100),
+
+    CONSTRAINT STUDENTS_PK PRIMARY KEY(student_id)
+);
+
+CREATE TABLE IF NOT EXISTS courses (
+    course_id VARCHAR(100) NOT NULL,
+    course_name VARCHAR(100),
+    course_credit_hours INTEGER,
+    course_section VARCHAR(100),
+    course_days VARCHAR(100),
+    course_time VARCHAR(100),
+    course_period VARCHAR(100),
+
+    CONSTRAINT COURSES_PK PRIMARY KEY(course_id)
+);
+
+CREATE TABLE IF NOT EXISTS enrollments (
+    enrollment_id INTEGER NOT NULL IDENTITY,
+    course_id VARCHAR(100) NOT NULL,
+    student_id VARCHAR(100) NOT NULL,
+
+    CONSTRAINT ENROLLMENT_PK PRIMARY KEY(enrollment_id),
+    CONSTRAINT CONSTRAINT1 FOREIGN KEY(student_id) REFERENCES students(student_id),
+    CONSTRAINT CONSTRAINT2 FOREIGN KEY(course_id) REFERENCES courses(course_id)
+);

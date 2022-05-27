@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS enrollments;
+
+SELECT * FROM enrollments;
+
+CREATE TABLE IF NOT EXISTS enrollments (
+    enrollment_id INTEGER NOT NULL IDENTITY,
+    course_id VARCHAR(100) NOT NULL,
+    student_id VARCHAR(100) NOT NULL,
+
+    CONSTRAINT ENROLLMENT_PK PRIMARY KEY(enrollment_id),
+    CONSTRAINT CONSTRAINT1 FOREIGN KEY(student_id) REFERENCES students(student_id),
+    CONSTRAINT CONSTRAINT2 FOREIGN KEY(course_id) REFERENCES courses(course_id)
+);
+
+
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP1010', 'kimh3427');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP1020', 'abelleac');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP2080', 'hamptone');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP2160', 'purificm');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP2140', 'tariqf');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP2280', 'ledt');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP3350', 'kimh3427');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP3350', 'abelleac');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP3350', 'hamptone');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP3350', 'purificm');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP3350', 'tariqf');
+INSERT INTO enrollments (course_id, student_id) VALUES ('COMP3350', 'ledt');

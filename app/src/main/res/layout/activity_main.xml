@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.Termsetter.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/header_main"/>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Termsetter.MenuButton"
+            android:id="@+id/homeManageAccountBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:onClick="openAccountManagementMenu"
+            android:text="@string/btn_main_manage_account"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homeScheduleBtn"
+            style="@style/Widget.Termsetter.MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:onClick="openTimetableView"
+            android:text="@string/btn_main_view_my_schedule" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homeEnrolledClassesBtn"
+            style="@style/Widget.Termsetter.MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:onClick="openTranscript"
+            android:text="@string/btn_main_view_my_courses" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homeOfferedClassesBtn"
+            style="@style/Widget.Termsetter.MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:onClick="openOfferedClassesCategories"
+            android:text="@string/btn_main_view_off_courses" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homeUnenrollBtn"
+            style="@style/Widget.Termsetter.MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:onClick="openUnenrollmentView"
+            android:text="@string/btn_main_unenroll" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Termsetter.TextButton.Large"
+            android:id="@+id/homeLogoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:onClick="onClickLogOutButton"
+            android:text="@string/btn_main_logout"/>
+    </LinearLayout>
+
+</ScrollView>

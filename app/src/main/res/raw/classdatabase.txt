@@ -1,0 +1,149 @@
+$Accounting
+ACC1100@Introductory Financial Accounting@3
+ACC1110@Introductory Managerial Accounting@3
+ACC2010@Intermediate Accounting - Assets@3
+ACC2020@Intermediate Accounting - Equities@3
+ACC3030@Advanced Accounting@3
+ACC3040@Cost Accounting@3
+ACC3080@Canadian Income Taxation@3
+ACC3081@Comptabilité fiscale@3
+ACC4010@Auditing@3
+ACC4030@Accounting Theory@3
+ACC4031@Théorie comptable@3
+$Actuarial Studies
+ACT2020@Economic and Financial Applications@3
+ACT2120@Interest Theory@3
+ACT3130@Actuarial Models 1@3
+ACT3230@Actuarial Models 2@3
+ACT4010@Regression Modeling in Actuarial Science@3
+ACT4030@Short Term Actuarial Mathematics II@3
+ACT4060@Actuarial Aspects of Investment Practice@3
+ACT4160@Introduction to Property and Casualty Insurance Industry@3
+$Computer Science
+COMP1010@Introductory Computer Science 1@3
+COMP1012@Computer Programming for Scientists and Engineers@3
+COMP1020@Introductory Computer Science 2@3
+COMP1500@Computing: Ideas and Innovation@3
+COMP1600@Navigating Your Digital World@3
+COMP2080@Analysis of Algorithms@3
+COMP2140@Data Structures and Algorithms@3
+COMP2150@Object Orientation@3
+COMP2160@Programming Practices@3
+COMP2280@Introduction to Computer Systems@3
+COMP3010@Distributed Computing@3
+COMP3170@Analysis of Algorithms and Data Structures@3
+COMP3190@Introduction to Artificial Intelligence@3
+COMP3350@Software Engineering 1@3
+COMP3370@Computer Organization@3
+COMP3430@Operating Systems@3
+COMP3490@Computer Graphics 1@3
+COMP3820@Introduction to Bioinformatics Algorithms@3
+COMP4020@Human-Computer Interaction 2@3
+COMP4060@Topics in Computer Science@3
+COMP4190@Artificial Intelligence@3
+COMP4350@Software Engineering 2@3
+COMP4360@Machine Learning@3
+COMP4380@Database Implementation@3
+COMP4420@Advanced Design and Analysis of Algorithms@3
+COMP4490@Computer Graphics 2@3
+COMP4520@Undergraduate Honours Project@3
+COMP4550@Real-Time Systems@3
+COMP4580@Computer Security@3
+COMP4620@Professional Practice in Computer Science@3
+$Mathematics
+MATH1010@Applied Finite Mathematics@3
+MATH1020@Mathematics in Art@3
+MATH1090@Mathematical Reasoning in Euclidean Geometry@3
+MATH1210@Techniques of Classical and Linear Algebra@3
+MATH1220@Linear Algebra 1@3
+MATH1232@Integral Calculus@3
+MATH1240@Elementary Discrete Mathematics@3
+MATH1300@Vector Geometry and Linear Algebra@3
+MATH1301@Géométrie vectorielle et algèbre linéaire@3
+MATH1500@Introduction to Calculus@3
+MATH1501@Introduction au calcul@3
+MATH1510@Applied Calculus 1@3
+MATH1520@Introductory Calculus for Management and Social Sciences@3
+MATH1700@Calculus 2@3
+MATH1701@Calcul II@3
+MATH1710@Applied Calculus 2@3
+MATH2020@Algebra 1@3
+MATH2040@Curves and Surfaces@3
+MATH2070@Graph Theory 1@3
+MATH2130@Engineering Mathematical Analysis 1@3
+MATH2132@Engineering Mathematical Analysis 2@3
+MATH2150@Multivariable Calculus@3
+MATH2170@Number Theory 1@3
+MATH2180@Real Analysis 1@3
+MATH2720@Multivariable Calculus@3
+MATH3132@Engineering Mathematical Analysis 3@3
+MATH3322@Algebra 3@3
+MATH3340@Complex Analysis 1@3
+MATH3361@Combinatoire 2@3
+MATH3370@Graph Theory 2@3
+MATH3420@Numerical Analysis 2@3
+MATH3460@Partial Differential Equations@3
+MATH3472@Real Analysis 3@3
+MATH3490@Optimization@3
+MATH4270@Algebraic Topology@3
+MATH4280@Basic Functional Analysis@3
+MATH4340@Introduction to Algebraic Geometry@3
+MATH4380@Mathematical Biology@3
+MATH4440@Numerical Analysis of Partial Differential Equations@3
+MATH4450@Number Theory 2@3
+$Management Information Systems
+MIS2000@Information Systems for Management@3
+MIS2001@Les systèmes d'information de gestion@3
+MIS3010@Business Data Analytics@3
+MIS3500@Database Management Systems@3
+MIS4500@Management Information Systems Strategy@3
+$Music
+MUSC1014@Introduction to Music in History 2@3
+MUSC1120@Music Theory 2@3
+MUSC1180@Ensemble@2
+MUSC1182@Jazz Ensemble 1@2
+MUSC1190@Ensemble@2
+MUSC1192@Jazz Rhythm Performance Techniques@2
+MUSC1394@Musicianship 2@2
+MUSC1400@Major Practical Study@6
+MUSC1930@Rudiments of Music@3
+MUSC2082@Jazz History 2@3
+MUSC2120@Music Theory 4@3
+MUSC2122@Jazz Theory 2@3
+MUSC2180@Ensemble@2
+MUSC2182@Jazz Ensemble 2@2
+MUSC2190@Ensemble@2
+MUSC2192@Jazz Improvisation 1@2
+MUSC2394@Musicianship 4@2
+MUSC2400@Major Practical Study@6
+MUSC2460@Conducting@3
+MUSC3010@Advanced Diction 1@3
+MUSC3074@Classical Music History@3
+MUSC3090@Introduction to Ethnomusicology@3
+MUSC3180@Ensemble@2
+MUSC3182@Jazz Ensemble 3@2
+MUSC3190@Ensemble@2
+MUSC3192@Jazz Improvisation 2@2
+MUSC3230@Acoustics of Music@3
+MUSC3270@Performance Skills@3
+MUSC3272@Jazz Performance Skills@3
+MUSC3470@Major Practical Study@6
+MUSC3550@Recital 1@3
+MUSC3554@Jazz Recital 1@3
+MUSC3650@Electroacoustic Music@3
+MUSC3690@Percussion Techniques@3
+MUSC3780@Woodwind Techniques@3
+MUSC3790@Brass Techniques@3
+MUSC3820@Topics in Music@3
+MUSC3830@Topics in Music@3
+MUSC3964@History of Western Art Music After 1900@3
+MUSC3974@Music Theory After 1900@3
+MUSC4020@Italian Diction and Repertoire@3
+MUSC4112@Jazz Composition and Arranging 2@3
+MUSC4180@Ensemble@2
+MUSC4182@Jazz Ensemble 4@2
+MUSC4190@Ensemble@2
+MUSC4192@Jazz Improvisation 3@2
+MUSC4440@Vocal Pedagogy@3
+MUSC4442@Jazz Pedagogy 2@3
+MUSC4470@Major Practical Study@6

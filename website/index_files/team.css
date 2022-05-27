@@ -1,0 +1,119 @@
+
+.team-container{
+    width: 80%;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 33% 1fr 33%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+.team-card{
+    border-color: gainsboro;
+    border-width: thin;
+    border-radius: 2em;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+span{
+    font-weight: 600;
+    color:rgb(24, 17, 17);
+    font-size: large;
+}
+
+.team-pic-andrea{
+    height: 7em;
+    width: 7em;
+    background-image: url("team/andrea.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: thick;
+    border-color: turquoise;
+    margin-bottom: 3%;
+}
+
+.team-pic-mika{
+    height: 7em;
+    width: 7em;
+    background-image:url("team/mika.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: thick;
+    border-color: turquoise;
+    margin-bottom: 3%;
+}
+
+.team-pic-farjad{
+    height: 7em;
+    width: 7em;
+    background-image:url("team/farjad.jfif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: thick;
+    border-color: turquoise;
+    margin-bottom: 3%;
+}
+
+.team-pic-eriq{
+    height: 7em;
+    width: 7em;
+    background-image:url("team/eriq.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: thick;
+    border-color: turquoise;
+    margin-bottom: 3%;
+}
+
+.team-pic-tuan{
+    height: 7em;
+    width: 7em;
+    background-image:url("team/tuan.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: thick;
+    border-color: turquoise;
+    margin-bottom: 3%;
+}
+
+.team-pic-kevin{
+    height: 7em;
+    width: 7em;
+    background-image:url("team/kevin.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: thick;
+    border-color: turquoise;
+    margin-bottom: 3%;
+}
+
+.team-pic:hover{
+    opacity: 85%;
+    transition: 0.3s;
+}
+
+.team-text{
+    text-align: left;
+    color: gray;
+    margin: 1.5%;
+}

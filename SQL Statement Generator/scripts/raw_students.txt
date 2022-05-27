@@ -1,0 +1,8 @@
+$Students
+name#nickname#123pass#mailme@myumanitoba.ca#12041234567
+kimh3427#mulz#kimh1234#kimh3427@myumanitoba.ca#1234567890
+abelleac#andrea#123#abelleac@myumanitoba.ca#9876543210
+purificm#mika#456#purificm@myumanitoba.ca#4567891230
+ledt#789#tuan#ledt@myumanitoba.ca#6541237890
+hamptone#eriq#123#hamptone@myumanitoba.ca#8527419630
+tariqf#farjad#456#tariqf@myumanitoba.ca#7412365890

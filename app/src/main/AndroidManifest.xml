@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comp3350.termsetter">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ts_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ts_icon"
+        android:supportsRtl="true"
+        android:theme="@style/TermsetterBase">
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" />
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".Presentation.Unenrollment"
+            android:label="Unenroll from a Class">
+        </activity>
+        <activity
+            android:name=".Presentation.Timetable"
+            android:label="@string/title_activity_timetable">
+        </activity>
+        <activity
+            android:name=".Presentation.Transcript"
+            android:label="View Transcript">
+        </activity>
+        <activity
+            android:name=".Presentation.AccountChangePassword"
+            android:label="Change Password">
+
+        </activity>
+        <activity
+            android:name=".Presentation.AccountUpdateEmail"
+            android:label="Update Email" />
+        <activity
+            android:name=".Presentation.AccountManageProfile"
+            android:label="Manage Profile" />
+        <activity
+            android:name=".Presentation.AccountManagementMenu"
+            android:label="Account Management">
+        </activity>
+        <activity
+            android:name=".Presentation.LoginPage"
+            android:label="TermSetter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Presentation.CreateAccount"
+            android:label="Create Account" />
+        <activity
+            android:name=".Presentation.OfferedClassesDetail"
+            android:label="@string/title_activity_offered_classes_detail" />
+        <activity
+            android:name=".Presentation.OfferedClassesView"
+            android:label="@string/title_activity_offered_classes_view" />
+        <activity
+            android:name=".Presentation.OfferedClassesCategories"
+            android:label="Categories" />
+        <activity
+            android:name=".Presentation.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>
